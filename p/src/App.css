@@ -1,0 +1,32 @@
+/* App.css */
+.custom-list-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-list-item:hover {
+  background-color: #f0f0f0;
+}
+
+.custom-list-item.pending {
+  background-color: #ffeeba;
+  color: #856404;
+  border-color: #ffeeba;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.text-primary {
+  color: #007bff !important;
+}
+
+/* Inside your CSS file */
+.deadline-passed {
+  background-color: red;
+  color: white; /* You may need to adjust the text color for better visibility */
+}
